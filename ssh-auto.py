@@ -17,6 +17,7 @@ if bash=="y":
 
 if bash=="n":
 	print("ThankYou")
+	os.system("service ssh stop")
 
 if bash=="connect":
 	inf= input("Enter Username : ")
